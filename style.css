@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    min-width: 100%;
+    height: 110px;
+    background: #00AEFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.upper>* {
+    height: 55px;
+    width: 320px;
+}
+
+.head-right {
+    background: #009BDD;
+}
+
+.head-left {
+    background: #36C3FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 570px;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.container {
+    width: 1000px;
+    height: 570px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-left {
+    background: #FF5607;
+    width: 170px;
+    height: 510px;
+    margin-right: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-item {
+    background: #E84900;
+    width: 160px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.container-main {
+    width: 750px;
+    padding: 30px 0;
+    height: 510px;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    background: #FFBD00;
+    width: 250px;
+    height: 160px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-first {
+    margin: 0 0 10px 0;
+    background: #CECECE;
+    height: 20px;
+    width: 430px;
+}
+
+.first {
+    background: #9D9D9D;
+    padding: 5px 0;
+}
+
+.text {
+    padding: 0 10px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    margin: 0 0 10px 0;
+    background: #CECECE;
+    height: 20px;
+    width: 750px;
+}
+
+footer {
+    height: 250px;
+    min-width: 100%;
+    background: #00D169;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    height: 200px;
+    width: 170px;
+    background: #02B15A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inline {
+    width: 150px;
+    height: 30px;
+    background: #038042;
+}
+
+@media screen and (max-width: 1040px) {
+    main {
+        padding: 0;
+    }
+    .container {
+        width: 1040px;
+    }
+    .container-main {
+        width: 790px;
+    }
+    .flex-item {
+        width: 790px;
+    }
+    .flex-item-first {
+        width:470px;
+    }
+}
